@@ -14,10 +14,8 @@ public class Program
     l = 0;
     wrd = 1;
 
-    /* loop till end of string */
     while (l <= str.Length - 1)
     {
-        /* check whether the current character is white space or new line or tab character*/
         if(str[l]==' ' || str[l]=='\n' || str[l]=='\t')
         {
             wrd++;
